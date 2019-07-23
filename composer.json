@@ -1,0 +1,33 @@
+{
+  "name": "oxcom/devutils-logs",
+  "description": "Analysis module for finding problematical shop data.",
+  "type": "oxideshop-module",
+  "keywords": [
+    "oxid",
+    "modules",
+    "admin",
+    "dev",
+    "debug"
+  ],
+  "homepage": "https://github.com/OXIDprojects/devutils-oxhackathon19",
+  "license": [
+    "GNU"
+  ],
+  "require": {
+    "oxcom/devutils-core": "*"
+  },
+  "version": "1.0.0",
+  "extra": {
+    "oxideshop": {
+      "blacklist-filter": [
+        "docs/**/*.*"
+      ],
+      "target-directory": "oxcom/devutils-logs"
+    }
+  },
+  "autoload": {
+    "psr-4": {
+      "OxidCommunity\\DevutilsLogs\\": "../../../source/modules/oxcom/devutils-logs/"
+    }
+  }
+}
