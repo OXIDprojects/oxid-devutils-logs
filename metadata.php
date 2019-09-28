@@ -8,9 +8,9 @@ $aModule = [
 ini_set(\'log_errors\',1);
 ini_set(\'error_log\',dirname(__FILE__).\'/log/error.log\');</textarea><hr/>access token for chrome extension: ' . md5($_SERVER["DOCUMENT_ROOT"]),
     'version'     => '1.0.0',
-    'author'      => 'Marat Bedoev',
-    'email'       => 'm@marat.ws',
-    'url'         => 'https://github.com/OXIDprojects/devutils-oxhackathon19',
+    'author'      => 'OXID Community',
+    'email'       => '',
+    'url'         => 'https://github.com/OXIDprojects/oxid-devutils-logs',
     'extend'      => [
         \OxidEsales\Eshop\Application\Controller\StartController::class => OxidCommunity\DevutilsLogs\Controller\StartController::class
     ],
