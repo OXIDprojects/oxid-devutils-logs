@@ -11,7 +11,7 @@
   ],
   "homepage": "https://github.com/OXIDprojects/oxid-devutils-logs",
   "license": [
-    "GNU"
+    "GPL-3.0"
   ],
   "require": {
     "oxid-community/devutils-core": "*"
