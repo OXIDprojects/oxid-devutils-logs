@@ -18,7 +18,7 @@ ini_set(\'error_log\',dirname(__FILE__).\'/log/error.log\');</textarea><hr/>acce
         'dev_logs' => OxidCommunity\DevutilsLogs\Controller\Admin\Logs::class
     ],
     'templates'   => [
-        'dev_logs.tpl' => 'oxcom/devutils-logs/views/admin/dev_logs.tpl'
+        'dev_logs.tpl' => 'oxid-community/devutils-logs/views/admin/dev_logs.tpl'
     ],
     'settings'    => [
         [
